@@ -1,0 +1,124 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "favoriteNumber",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getDetails",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getFavoriteNumber",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_favoriteNumber",
+						"type": "uint256"
+					}
+				],
+				"name": "storeNumber",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "timestamp",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"AdvancedStorage.sol": "AdvancedStorage"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"AdvancedStorage.sol": {
+			"keccak256": "0x0d4e46ae5f660da6ca2e8a3b9621e5372c9f9bc1814c1c9eb5f8880c0e2e8e20",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://34844b950c8efa7f0cdae752a1e987c35d31159f4532dd86a1f014605da57798",
+				"dweb:/ipfs/QmSz7tgxKe3TeZvjpGyj8fpjhtQYiayCNCfiESWiyTmA7r"
+			]
+		},
+		"SimpleStorage.sol": {
+			"keccak256": "0xcaeab176dc1f3eb6fd973906db23058e8db0c6d350a210465359d662fa965ebc",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://4c7ed0b6d3f7cf034e1645e00581900cd4da9500fba0f817c12be45a160478e6",
+				"dweb:/ipfs/QmY4M8aSEEGDHdyMjWkzzAjwmWVxe84KrUxDcvXoP2wpQt"
+			]
+		}
+	},
+	"version": 1
+}
